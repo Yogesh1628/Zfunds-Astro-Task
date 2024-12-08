@@ -1,0 +1,38 @@
+.container{
+    border: 1px solid #8E959F;
+    border-radius:12px;
+    padding: 4px 16px;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    -ms-border-radius:12px;
+    -o-border-radius:12px;
+    margin: 24px 0px;
+}
+
+.container-heading{
+    font-size : 14px;
+    font-weight: 700;
+    color: #052F5F;
+}
+
+.edit-container{
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+}
+
+.edit-icon{
+    width: 14px;
+    cursor: pointer;
+    height: 14px;
+}
+.edit-text{
+    font-size: 12px;
+    font-weight: 500;
+    color: #03A87D;
+}
+.container-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

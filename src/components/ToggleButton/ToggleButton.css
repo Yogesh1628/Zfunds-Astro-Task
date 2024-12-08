@@ -1,0 +1,44 @@
+.toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 358px;
+    height: 40px;
+    gap: 49px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #052f5f;
+  }
+  
+  .toggle-label {
+    color: #052f5f;
+  }
+  
+  .toggle-switch {
+    width: 50px;
+    height: 24px;
+    background-color: #ccc; 
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-switch.active {
+    background-color: #052f5f; 
+  }
+  
+  .toggle-circle {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .toggle-switch.active .toggle-circle {
+    transform: translateX(26px); 
+  }
+  

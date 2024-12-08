@@ -1,0 +1,42 @@
+.top-container{
+    padding: 0px 16px;
+    margin : 24px 0px 16px 0px;
+}
+
+.top-container p{
+    font-size: 20px;
+    font-weight: 700;
+    /* line-height: 27.24px;
+    letter-spacing: -0.015em; */
+    text-align: left;
+    color: #052F5F ;
+    margin : 0px !important;
+}
+
+.bottom-container{
+    padding: 12px 16px;
+    background-color: #EFF3F6;
+
+}
+
+.bottom-container p{
+    color: #052F5F ;
+    font-size: 16px;
+    font-weight: 600;
+    
+    
+}
+
+
+.green-line{
+    width : 30px;
+    border-top : 2px solid #03A87C
+
+}
+
+.sub-heading{
+    color : #052F5F;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0px 16px;
+}
