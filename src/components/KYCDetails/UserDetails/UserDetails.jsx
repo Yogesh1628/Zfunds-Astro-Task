@@ -8,11 +8,11 @@ function UserDetails({name = "Dummy Name"}) {
   function onPressEdit()
   {
     const link = document.createElement("a");
-    link.href = "/personal-details"; // Set the desired route
-    link.style.display = "none"; // Hide the link from view
-    document.body.appendChild(link); // Append to the DOM to make it functional
-    link.click(); // Simulate a click to navigate
-    document.body.removeChild(link); // Clean up by removing the link after navigation
+    link.href = "/personal-details"; 
+    link.style.display = "none"; 
+    document.body.appendChild(link); 
+    link.click(); 
+    document.body.removeChild(link); 
 
   }
   return (

@@ -19,9 +19,9 @@ function Header() {
   }
 
   return (
-    <div className="Header-container">
-      <div className="left-container" onClick={handleBack}>
-        <img src={Arrow.src} alt="Arrow" />
+    <div className = "Header-container">
+      <div className = "left-container" onClick = {handleBack}>
+        <img src = {Arrow.src} alt = "Arrow"/>
         <p>Back</p>
       </div>
       <div className="logo-container">

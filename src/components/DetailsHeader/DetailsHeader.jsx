@@ -2,7 +2,7 @@ import React from 'react'
 import  './DetailsHeader.css';
 
 function DetailsHeader(props) {
-    const {heading, details, subHeading} = props
+    const {heading, details, subHeading} = props;
   return (
     <div>
         <div className='top-container'>
@@ -11,9 +11,9 @@ function DetailsHeader(props) {
             </p>
             <div className='green-line'/>
         </div>
-        <p className='sub-heading'>
+            <p className='sub-heading'>
                 {details}
-        </p>
+            </p>
         <div className='bottom-container'>
             <p>
                 {subHeading}

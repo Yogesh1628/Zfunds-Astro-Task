@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './EmailInput.css'
 
-function EmailInput({name, heading, value, onChange, emailDomain, setEmailDomain}) {
+function EmailInput({name, heading, value, onChange, emailDomain, setEmailDomain, error}) {
     
     const emailData = 
     [
@@ -40,6 +40,7 @@ function EmailInput({name, heading, value, onChange, emailDomain, setEmailDomain
                       })                      
                 }
         </div> 
+        {error && <div className='errorCss'>Please Fill it </div>}
     </div>
   )
 }

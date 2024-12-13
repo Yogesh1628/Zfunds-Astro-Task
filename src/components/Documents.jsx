@@ -32,7 +32,7 @@ function Documents() {
       .then((response) => response.json())
       .then((data) => {
         const link = document.createElement("a");
-          link.href = "/kyc-details"; 
+          link.href = "/fatca-details"; 
           link.style.display = "none"; 
           document.body.appendChild(link); 
           link.click();
